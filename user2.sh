@@ -1,1 +1,2 @@
-sudo -i -u postgres psql -c "CREATE USER mob_app_usr WITH PASSWORD 'test2023';"
+sudo useradd -d home/ mob_app_user mob_app_user
+
